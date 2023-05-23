@@ -1,0 +1,40 @@
+import { createGlobalStyle } from 'styled-components'
+import styled from 'styled-components'
+
+export const cores = {
+  corTexto: '#000',
+  corFundo: '#f2f8fa',
+  corPrincipal: '#1E90FF',
+  corSecundaria: '#465a0f'
+}
+
+export const GlobalStyle = createGlobalStyle`
+  * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: ${cores.corTexto}
+  }
+
+  body {
+    background-color: ${cores.corFundo};
+    padding-bottom: 80px;
+  }
+
+  .container {
+    // max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+
+    @media (max-width: 1024px) {
+      max-width: 80%;
+    }
+  }
+`
+export const Container = styled.main`
+  padding: 0 140px;
+  height: 100vh;
+  overflow-y: scroll;
+`
