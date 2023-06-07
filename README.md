@@ -1,6 +1,6 @@
 # Lista de Contatos
 
-Este projeto simula é uma lista de contatos que possibilita a adicionar, editar e excluir contatos, foi construido com **React-Redux**, estilizado com **Styled-Components** e o retamento de páginas com **React-Router-Dom** e **SPA**.
+Este projeto simula é uma lista de contatos que possibilita a adicionar, editar e excluir contatos, foi construido com **React-Redux**, estilizado com **Styled-Components** e o roteamento de páginas com **React-Router-Dom** e **SPA**.
 
 ## 🚀 Começando
 
