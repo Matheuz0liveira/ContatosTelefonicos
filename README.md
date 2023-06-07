@@ -21,7 +21,8 @@ Siga estas etapas para configurar o ambiente de desenvolvimento:
 2. Navegue até o diretório clonado.
 3. Execute o seguinte comando para instalar as dependências:
  
-  **``npm install``** 
+  **``npm install
+  ``** 
 
 ### Executando o projeto
 
